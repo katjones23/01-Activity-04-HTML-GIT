@@ -16,3 +16,8 @@ img {
     margin-right: auto;
     display: block;
 }
+
+ul {
+        text-align: center;
+        list-style: inside;
+}
