@@ -1,23 +1,57 @@
+/** Mirroring solution for practice **/
+
 body {
-        background-color: black;
+        padding: 0;
+        margin: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        line-height: 150%;
+        color: #333;
+        background: #efeee7;
 }
 
-h1, h2 {
-        color: white;
-        text-align: center; 
+header {
+        background: #333;
 }
 
-div {
-        color: purple
-}
-
-img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-ul {
+/** Student bio header **/
+h1 {
+        padding: 20px 0;
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 28px;
+        color: #eee;
         text-align: center;
-        list-style: inside;
+}
+
+h2 {
+        font-size: 24px;
+}
+
+a {
+        color: #d21034;
+}
+
+.container {
+        width: 1024px;
+        margin: 0 auto;
+}
+
+/** this allows everything to line up horizontally **/
+#main-bio, #contact-info, #bio-image {
+        float: left;
+}
+
+#main-bio {
+        width: 70%;
+}
+
+#contact-info {
+        width: 30%; 
+}
+
+#bio-image {
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
 }
